@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "13444004-c041-442d-87c8-3ba88aa98ac7",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,19 +21,19 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/vless",
+                        "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/vmess",
+                        "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-vmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/trojan",
+                        "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-trojan",
                         "dest": 3004
                     },
                     {
-                        "path": "/shadowsocks",
+                        "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-shadowsocks",
                         "dest": 3005
                     }
                 ]
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "id": "13444004-c041-442d-87c8-3ba88aa98ac7"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "13444004-c041-442d-87c8-3ba88aa98ac7",
                         "level": 0
                     }
                 ],
@@ -76,11 +76,11 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vless"
+                    "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-vless"
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls",
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "13444004-c041-442d-87c8-3ba88aa98ac7",
                         "alterId": 0
                     }
                 ]
@@ -104,11 +104,11 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-vmess"
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls",
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "13444004-c041-442d-87c8-3ba88aa98ac7"
                     }
                 ]
             },
@@ -132,11 +132,11 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/trojan"
+                    "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-trojan"
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls",
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "13444004-c041-442d-87c8-3ba88aa98ac7"
                     }
                 ],
                 "decryption": "none"
@@ -161,11 +161,11 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/shadowsocks"
+                    "path": "/13444004-c041-442d-87c8-3ba88aa98ac7-shadowsocks"
                 }
             },
             "sniffing": {
-                "enabled": true,
+                "enabled": false,
                 "destOverride": [
                     "http",
                     "tls",
